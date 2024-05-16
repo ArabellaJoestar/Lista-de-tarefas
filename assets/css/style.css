@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.container{
+    margin-top:120px;
+    height: 300px auto;
+    width: 300px;
+    background-color: blue;
+    padding: 50px;
+    border-radius: 2%;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div #idLista{
+    border-style: none;
+    height: 25px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 4px;
+}
+
+#addBtn{
+    border-style: none;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(131, 124, 155);
+   font-weight: bolder;
+   align-self: flex-end;
+}
+
+#addBtn:hover{
+    background-color: white;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.apagar{
+    margin-top: 20px;
+    border-style: none;
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
